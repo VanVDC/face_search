@@ -104,7 +104,8 @@ class App extends React.Component {
                   entries: count
                 }
               });
-            });
+            })
+            .catch(console.log);
         }
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
