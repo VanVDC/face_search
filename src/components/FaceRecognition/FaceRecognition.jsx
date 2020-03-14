@@ -1,11 +1,12 @@
 import React from "react";
+import "./FaceRecognition.styles.css";
 
 const FaceRecognition = ({ imageUrl, box }) => {
   return (
     <div className="center ma">
       <div className="absolute mt2">
         <img
-          id="inputImage"
+          id="inputimage"
           src={imageUrl}
           alt=""
           width="500px"
@@ -14,7 +15,7 @@ const FaceRecognition = ({ imageUrl, box }) => {
         <div
           className="bounding-box"
           style={{
-            top: box.ropRow,
+            top: box.topRow,
             right: box.rightCol,
             bottom: box.bottomRow,
             left: box.leftCol
