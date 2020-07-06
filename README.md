@@ -8,7 +8,7 @@ An website using Clarifai AI to search for a face in an image.
 
 - Login/Logout Functionality
 - Keep track of the amount of time the user use the face search
-  ![demo](./src/assets/pulsar.gif)
+  ![demo](./src/components/Logo/face.gif)
 
 #### Instructions:
 
