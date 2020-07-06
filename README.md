@@ -1,3 +1,44 @@
+# Face Search
+
+An website using Clarifai AI to search for a face in an image.
+
+- [Server side](https://github.com/VanVDC/face_search_api)
+
+#### Features:
+
+- Login/Logout Functionality
+- Keep track of the amount of time the user use the face search
+  ![demo](./src/assets/pulsar.gif)
+
+#### Instructions:
+
+- Clone with HTTPS
+
+```
+git clone: https://github.com/VanVDC/face_search.git
+```
+
+- `npm install`
+
+* `npm start` to start the client
+
+#### Demo:
+
+- [Demo](https://search-face.herokuapp.com/)
+- Login
+
+```
+user: tom@gmail.com
+pass: 123456
+```
+
+#### Built With:
+
+- [Create-react-app](https://github.com/facebook/create-react-app)
+- [React](https://github.com/facebook/react/)
+- [Tachyons](https://github.com/tachyons-css/tachyons)
+- [Clarifai JS](https://github.com/Clarifai/clarifai-javascript)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
