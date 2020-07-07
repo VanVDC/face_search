@@ -1,6 +1,6 @@
 # Face Search
 
-An website using Clarifai AI to search for a face in an image.
+A simple website using Clarifai AI to search for a face in an image.
 
 - [Server side](https://github.com/VanVDC/face_search_api)
 
